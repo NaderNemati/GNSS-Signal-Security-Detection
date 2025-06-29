@@ -46,13 +46,13 @@ Dataset: Feature-mapped signals from a GPS receiver simulating UAV-based spoofin
 
 Implementation:
 
-Load and clean tabular GPS observation data (.xlsx).
+1-Load and clean tabular GPS observation data (.xlsx).
 
-Apply label encoding and one-hot encoding to the output classes.
+2-Apply label encoding and one-hot encoding to the output classes.
 
-Normalize features with StandardScaler.
+3-Normalize features with StandardScaler.
 
-Train/test split with stratified sampling.
+4-Train/test split with stratified sampling.
 
 Model: DNN with 3 hidden layers and dropout regularization.
 
