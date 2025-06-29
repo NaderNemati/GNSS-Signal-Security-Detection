@@ -156,5 +156,5 @@ Output: 6-class jamming classification (DME, NB, NoJam, AM, Chirp, FM) with stro
 
 - Swinney, D., & Woods, R. (2021). *GNSS Signal Jamming Dataset*. Zenodo. https://zenodo.org/record/4588474  
 - Ranganathan, P. et al. (2023). *A Dataset for GPS Spoofing Detection on Unmanned Aerial System*. arXiv:2501.02352  
-- GNSS Jamming and Spoofing Detection using Machine Learning and Computer Vision. GitHub Repository: https://github.com/alicmu2024/GNSS-Jamming-Detection...
+- GNSS Jamming and Spoofing Detection using Machine Learning and Computer Vision. GitHub Repository: https://github.com/alicmu2024/GNSS-Jamming-Detection
 
