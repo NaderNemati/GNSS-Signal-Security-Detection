@@ -73,6 +73,21 @@ pip install -r requirements.txt
 
 ```
 
+## Run Pipelines
+
+To run spoofing detection:
+
+```bash
+python spoofing_detection.py
+```
+
+
+
+
+
+
+
+
 
 
 
