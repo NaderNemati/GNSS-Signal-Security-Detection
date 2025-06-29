@@ -37,3 +37,29 @@ The dataset covers four classes: legitimate signals and three spoofing types (si
 
 
 
+
+
+
+## Spoofing Detection Pipeline
+
+Dataset: Feature-mapped signals from a GPS receiver simulating UAV-based spoofing detection.
+
+Implementation:
+
+Load and clean tabular GPS observation data (.xlsx).
+
+Apply label encoding and one-hot encoding to the output classes.
+
+Normalize features with StandardScaler.
+
+Train/test split with stratified sampling.
+
+Model: DNN with 3 hidden layers and dropout regularization.
+
+Loss function: Categorical crossentropy.
+
+Optimizer: Nadam.
+
+Evaluation: Accuracy, confusion matrix, and training history plots.
+
+Output: Multi-class spoofing detection with high accuracy and generalization performance.
