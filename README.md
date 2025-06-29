@@ -40,28 +40,21 @@ The dataset covers four classes: legitimate signals and three spoofing types (si
 
 📦 GNSS-Signal-Security-Detection
 
+
+```bash
 ├── 📁 data/
-
 │ ├── Raw_IQ_Dataset/ (Jamming Dataset from Zenodo)
-
 │ └── GPS_Data_Simplified_2D_Feature_Map.xlsx (Spoofing Dataset)
-
 ├── 📁 models/
-
 │ ├── cnn_jamming_model.py
-
 │ └── dnn_spoofing_model.py
-
 ├── 📁 utils/
-
 │ └── preprocessing.py
-
 ├── 📊 results/
-
 ├── 📜 README.md
-
 └── 📄 requirements.txt
 
+```
 
 ## Installation
 
