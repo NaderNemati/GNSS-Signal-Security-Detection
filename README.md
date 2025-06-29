@@ -36,6 +36,30 @@ The spoofing dataset originates from GPS observations captured by an 8-channel r
 The dataset covers four classes: legitimate signals and three spoofing types (simplistic, intermediate, and sophisticated), representing varying spoofing complexity. Due to class imbalance, undersampling was used to prepare a balanced training subset.
 
 
+## Repository Structure
+
+
+📦 GNSS-Signal-Security-Detection
+├── 📁 data/
+│ ├── Raw_IQ_Dataset/ (Jamming Dataset from Zenodo)
+│ └── GPS_Data_Simplified_2D_Feature_Map.xlsx (Spoofing Dataset)
+├── 📁 models/
+│ ├── cnn_jamming_model.py
+│ └── dnn_spoofing_model.py
+├── 📁 utils/
+│ └── preprocessing.py
+├── 📊 results/
+├── 📜 README.md
+└── 📄 requirements.txt
+
+
+
+
+
+
+
+
+
 
 
 
