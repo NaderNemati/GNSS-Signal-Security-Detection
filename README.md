@@ -63,3 +63,30 @@ Optimizer: Nadam.
 Evaluation: Accuracy, confusion matrix, and training history plots.
 
 Output: Multi-class spoofing detection with high accuracy and generalization performance.
+
+
+## Jamming Detection Pipeline
+
+Dataset: Raw IQ samples converted to spectrograms (STFT images).
+
+Implementation:
+
+1-Read .mat IQ signal files.
+
+2-Extract time-frequency spectrograms using scipy.signal.spectrogram().
+
+3-Log-transform and resize spectrograms to 128x128 pixels.
+
+4-Normalize and expand image dimensions.
+
+5-Use image augmentation (ImageDataGenerator).
+
+Model: CNN with 3 convolutional layers, batch normalization, max pooling, and dropout.
+
+Optimizer: Nadam.
+
+Training: Fit with early stopping and learning rate reduction.
+
+Evaluation: Classification report, confusion matrix, and accuracy/loss curves.
+
+Output: 6-class jamming classification (DME, NB, NoJam, AM, Chirp, FM) with strong visual features.
