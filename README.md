@@ -63,9 +63,22 @@ The dataset covers four classes: legitimate signals and three spoofing types (si
 └── 📄 requirements.txt
 
 
+## Installation
 
+1. Clone the repository:
 
+```bash
+git clone https://github.com/YourUsername/GNSS-Signal-Security-Detection.git
+cd GNSS-Signal-Security-Detection
 
+```
+
+2. Install dependencies:
+   
+```bash
+pip install -r requirements.txt
+
+```
 
 
 
