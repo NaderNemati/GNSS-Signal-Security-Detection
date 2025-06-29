@@ -81,9 +81,11 @@ To run spoofing detection:
 python spoofing_detection.py
 ```
 
+## To run jamming detection:
 
-
-
+```bash
+python jamming_detection.py
+```
 
 
 
