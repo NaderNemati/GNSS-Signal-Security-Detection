@@ -53,9 +53,47 @@ The spoofing dataset originates from GPS observations captured by an 8-channel r
 The dataset covers four classes: legitimate signals and three spoofing types (simplistic, intermediate, and sophisticated), representing varying spoofing complexity. Due to class imbalance, undersampling was used to prepare a balanced training subset.
 
 
-## Repository Structure
 
-📦 GNSS-Signal-Security-Detection
+
+
+
+## Results Summary
+
+This study evaluates two independent pipelines—**jamming** and **spoofing detection**—using deep learning models tailored to their respective dataset modalities.
+
+### Jamming Detection (CNN on Spectrograms)
+
+- **Test Accuracy:** `96.0%`  
+- **Test Loss:** `0.1717`
+
+| Class         | Precision | Recall | F1-score | Support |
+|---------------|-----------|--------|----------|---------|
+| DME           | 1.00      | 1.00   | 1.00     | 250     |
+| Narrowband    | 0.96      | 1.00   | 0.98     | 250     |
+| NoJam         | 1.00      | 1.00   | 1.00     | 250     |
+| SingleAM      | 0.80      | 0.99   | 0.88     | 250     |
+| SingleChirp   | 1.00      | 0.96   | 0.98     | 250     |
+| SingleFM      | 0.99      | 0.75   | 0.85     | 250     |
+
+- **Overall Metrics:**
+  - Accuracy: **96.0%**
+  - Macro F1-score: **0.96**
+  - Weighted F1-score: **0.96**
+
+<sub>Model: CNN trained on 128×128 log-scaled spectrograms with data augmentation, dropout regularization, early stopping, and learning rate scheduling.</sub>
+
+---
+
+### ✅ Spoofing Detection (DNN on Feature Map)
+
+- **Test Accuracy:** `95.72%`  
+- **Test Loss:** `0.1256`  
+- **Final Epoch:** `100`
+
+
+
+
+## Repository Structure
 
 
 ```bash
