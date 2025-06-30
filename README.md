@@ -82,6 +82,32 @@ This study evaluates two independent pipelines—**jamming** and **spoofing dete
 
 <sub>Model: CNN trained on 128×128 log-scaled spectrograms with data augmentation, dropout regularization, early stopping, and learning rate scheduling.</sub>
 
+
+
+<div align="center">
+  <table border=0 style="border: 0px solid #c6c6c6 !important; border-spacing: 0px; width: auto !important;">
+    <tr>
+      <td valign=top style="border: 0px solid #c6c6c6 !important; padding: 0px !important;">
+        <div align=center valign=top>
+          <img src="https://github.com/NaderNemati/GNSS-Signal-Security-Detection/blob/main/images/Jamming2.png" style="margin: 0px !important; height: 400px !important;">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<div align="center">
+  <table border=0 style="border: 0px solid #c6c6c6 !important; border-spacing: 0px; width: auto !important;">
+    <tr>
+      <td valign=top style="border: 0px solid #c6c6c6 !important; padding: 0px !important;">
+        <div align=center valign=top>
+          <img src="https://github.com/NaderNemati/GNSS-Signal-Security-Detection/blob/main/images/Jamming1.png" style="margin: 0px !important; height: 400px !important;">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 ---
 
 ### ✅ Spoofing Detection (DNN on Feature Map)
@@ -89,6 +115,41 @@ This study evaluates two independent pipelines—**jamming** and **spoofing dete
 - **Test Accuracy:** `95.72%`  
 - **Test Loss:** `0.1256`  
 - **Final Epoch:** `100`
+
+<div align="center">
+  <table border=0 style="border: 0px solid #c6c6c6 !important; border-spacing: 0px; width: auto !important;">
+    <tr>
+      <td valign=top style="border: 0px solid #c6c6c6 !important; padding: 0px !important;">
+        <div align=center valign=top>
+          <img src="https://github.com/NaderNemati/GNSS-Signal-Security-Detection/blob/main/images/spoofing1.png" style="margin: 0px !important; height: 400px !important;">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+<div align="center">
+  <table border=0 style="border: 0px solid #c6c6c6 !important; border-spacing: 0px; width: auto !important;">
+    <tr>
+      <td valign=top style="border: 0px solid #c6c6c6 !important; padding: 0px !important;">
+        <div align=center valign=top>
+          <img src="https://github.com/NaderNemati/GNSS-Signal-Security-Detection/blob/main/images/spoofing.png" style="margin: 0px !important; height: 400px !important;">
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
+
+
+
+
+
+
+
+
+
+
 
 
 
