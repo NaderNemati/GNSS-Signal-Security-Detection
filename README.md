@@ -95,6 +95,10 @@ This study evaluates two independent pipelines—**jamming** and **spoofing dete
     </tr>
   </table>
 </div>
+
+
+In the confusion matrix of jamming detection, the jamming classification model performs well, correctly identifying all 250 instances for DME, NB, and NoJam. Similarly, the SingleChirp and SingleAM classes achieved 96% and 99.2% accuracy, respectively. The model, however, shows noticeable confusion between single FM and single AM samples, with 63 out of 250 single FM samples misclassified as single AM, resulting in a class-wise accuracy of 74.8%. As a result, these two classes may share spectral characteristics that need to be refined or enhanced further.
+
 ---
 
 ### ✅ Spoofing Detection (DNN on Feature Map)
@@ -115,7 +119,7 @@ This study evaluates two independent pipelines—**jamming** and **spoofing dete
   </table>
 </div>
 
-
+The confusion matrix for the spoofing detection model shows strong classification performance across the four classes of spoofing. The most accurate classification is in Class 0 (legitimate signals), with 78,029 out of its total predictions correctly classified and relatively low misclassification rates. There are 5,708 correct predictions in Class 3 (sophisticated spoofing) and minimal confusion with other classes. There is some overlap between Class 1 (simplistic spoofing) and Class 2 (intermediate spoofing), particularly with Class 2 misclassified as Class 0 in 2,572 cases and as Class 1 in 133 cases. As a result of this confusion between spoofing classes, the model demonstrates both benign and complex spoofing detection capability with notably high accuracy.
 
 
 
